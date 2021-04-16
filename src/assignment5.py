@@ -16,7 +16,6 @@ nlp = spacy.load("en_core_web_sm", disable=["ner"])
 
 # visualisation
 import pyLDAvis.gensim
-pyLDAvis.enable_notebook()
 import seaborn as sns
 from matplotlib import rcParams
 # figure size in inches
